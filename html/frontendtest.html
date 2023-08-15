@@ -1,4 +1,8 @@
 <!Doctype html>
+<head>
+    <meta charset="UTF-8"
+    <title>To infinity</title>
+</head>
 <body>
     <main>
         <header>this is a test</header>
@@ -48,9 +52,10 @@ break the ends of the world, the walls blocking our path
                 <fieldset>
                     <legend>What are the blockers faced and the current status?</legend>
                     <input type="text" name="Monthly Output" placeholder="Give your feedback">
-                    <label><input type="checkbox" id="Done" name="Done-In-progress" value="Done">Everything Done</label>
+                    <label><input type="radio" id="Done" name="status?" value="Done">Everything Done</label>
                     <!--Take note the type above brings out checkboxes while the one below brings forth a round checker-->
-                    <label><input type="radio" id="In-progress" name="Done-In-progress" value="In-progress">In Progress</label>
+                    <label><input type="radio" id="In-progress" name="status?" value="In-progress">In Progress</label>
+                    <fieldset><input type="checkbox" id="next" name="next" value="next"> Do you wish to Continue?</fieldset>
                 </fieldset>
                 <button><submit>Submit</submit></button>
             </form>
