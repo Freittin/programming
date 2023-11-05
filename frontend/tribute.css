@@ -8,7 +8,7 @@ body {
     color: #333;
     margin: 0;
       background-image: url("https://bestanimations.com/media/spheres/1618414553sphere-3d-computer-art-geometry-gif-5.gif");
-      object-fit: fill;
+      background-size: contain;
   }
   li{
     text-align: left;
