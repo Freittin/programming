@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #34b7a7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #51cdbe;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  #main {
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 992px) {
+    #main {
+      margin-top: 30px;
+    }
+    
+  }
+/*--------------------------------------------------------------
+# navigation
+--------------------------------------------------------------*/
+  nav {
+  width: 80%;
+  max-width: 800px;
+  max-height: fit-content;
+}
+
+nav > ul {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+.feature {
+  flex: 0 1 20%;
+  box-sizing: content-box;
+  margin: 1em;
+  margin-top: 2rem;
+  margin-inline-start: auto;
+  max-width: 80%;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition-timing-function: ease-in-out;
+}
+.feature1{
+ 
+ background-color: green; 
+}
+/*--------------------------------------------------------------
+# layout
+--------------------------------------------------------------*/
+.icon{
+  size: 40px;
+}
